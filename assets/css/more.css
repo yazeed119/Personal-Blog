@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4682B4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    background-color: #003459;
+    border-radius: 30px;
+    text-align: center; 
+    color: #ffffff;
+    margin: 100px;
+    padding: 100px;
+}
+
+.title{
+    color: #ced1da;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.description{
+    color: #000;
+    
+}
+
+.list {
+    margin-top: 20px;
+    text-align: center;
+}
+
+

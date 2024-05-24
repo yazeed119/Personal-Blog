@@ -6,151 +6,94 @@
     <title>Personal Blog</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<header class="nav-body">
-    <nav class="navbar">
-            <a class="logo">Yazeed Deriah</a>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
-
 <body>
-    <div class="about" id="about">
-        <div class="text-content">
-            <div class="name"><h1>I'M Yazeed Deriah, Studing Computer Science Appremtchip At NNU</h1>
-            <h3 class="study"> Quality Assurance Engeneering</h3>
+    <div class="main">
+        <header class="nav-body">
+            <nav class="navbar">
+                <a class="logo">Yazeed Deriah</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about" class="about">
+            <div class="text-content">
+                <div class="name">
+                    <h1>I'm Yazeed Deriah, Studying Computer Science Apprenticeship At NNU</h1>
+                    <h3 class="study">Quality Assurance Engineering</h3>
+                </div>
             </div>
-        </div>
-        <div class="image-content">
-            <img src="assets/img/qa.jpg" class="about-image">
-        </div>
-    </div>
-    </body>
-
-
-    <div class="projects-container" id="projects">
-        <div class="title"><h1>My Projects :</h1></div>
-        <section class="project">                    
-                    <div class="service-item">
-                        <h3 class="title">Manual Testing</h3>
-                        <p>Worked on a Manual Automation project for the Dawerha website.</p>
-                    </div>
-
-                    <div class="service-item"> 
-                        <div class="icon"><i class="icon-chart"></i></div>
-                        <h3 class="title">Automation Test</h3>
-                        <p>Worked on a Test Automation (White Box technique) project for a website called Goals, using Cypress</p>
-                    </div>
-
-                    <div class="service-item">
-                        <div class="icon"><i class="icon-globe"></i></div>
-                        <h3 class="title">Static Analyzer</h3>
-                        <p>Worked on a static analyzer project for a previously written code, and I fixed the bugs and the
-                            issues inside it, and categorize them into types, using Sonarqube Tool</p>
-                    </div>
-
-                    <div class="service-item">
-                        <div class="icon"></div>
-                        <h3 class="title">API Testing</h3>
-                        <p>I worked on a Api testing for Dawerha platform.</p>
-                    </div>
-
-                    <div class="service-item">
-                        <div class="icon"><i class="icon-code"></i></div>
-                        <h3 class="title">Halo Hair App</h3>
-                        <ul>
-                            <li>Design a UI/UX and front end to the mobile application (Xamarin.forms: Xaml).</li>
-                            <li>Write a Back-end code for mobile application to Book appointments with the barber (XamarinForms: C#).</li>
-                            <li>Make a firebase to store the data.</li>
-                        </ul>
-                    </div>
-
-                    <div class="service-item">
-                        <div class="icon"><i class="icon-support"></i></div>
-                        <h3 class="title">Ui/UX</h3>
-                        <P>
-                            I Designed  a mobile application "Easy Pay" using Adoby Xd.
-                        </P>
-                    </div>
+            <div class="image-content">
+                <img src="assets/img/qa.jpg" alt="Quality Assurance" class="about-image">
             </div>
         </section>
-    </div>
-</div>
 
+        <section id="projects" class="projects-container">
+            <div class="title"><h1>My Projects :</h1></div>
+            <div class="project">                    
+                <div class="service-item">
+                    <h3 class="title">Manual Testing</h3>
+                    <p>Worked on a Manual Automation project for the Dawerha website.</p>
+                    <a class="button" href="read-more/manual-more.html">read more</a>
+                </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="skills-container">
-    <div class="title"><h1>My Skills :</h1></div>
-    <section class="skill">                    
-                <div class="skill-item">
+                <div class="service-item"> 
                     <h3 class="title">Automation Test</h3>
+                    <p>Worked on a Test Automation (White Box technique) project for a website called Goals, using Cypress.</p>
+                    <a class="button" href="read-more/auto-more.html">read more</a>
+                </div>
+
+                <div class="service-item">
+                    <h3 class="title">Static Analyzer</h3>
+                    <p>Worked on a static analyzer project for previously written code, fixed bugs, and categorized issues using Sonarqube Tool.</p>
+                    <a class="button" href="read-more/static-nalyzer.html">read more</a>
+                </div>
+
+                <div class="service-item">
+                    <h3 class="title">API Testing</h3>
+                    <p>Worked on API testing for the Dawerha platform.</p>
+                    <a class="button" href="read-more/api-test.html">read more</a>
+                </div>
+
+                <div class="service-item">
+                    <h3 class="title">Halo Hair App</h3>
+                    <ul>
+                        <li>Designed UI/UX and front-end for the mobile application using Xamarin.Forms (XAML).</li>
+                        <li>Developed back-end code for booking appointments with the barber using Xamarin.Forms (C#).</li>
+                        <li>Set up Firebase for data storage.</li>
+                    </ul>
+                    <a class="button" href="read-more/mob-app.html">read more</a>
+                </div>
+
+                <div class="service-item">
+                    <h3 class="title">UI/UX</h3>
+                    <p>Designed a mobile application "Easy Pay" using Adobe XD.</p>
+                    <a class="button" href="read-more/ui-ux.html">read more</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-container">
+            <div class="title"><h1>My Skills :</h1></div>
+            <div class="skill">                    
+                <div class="skill-item">
+                    <h3 class="title">Automation Testing</h3>
                 </div>
 
                 <div class="skill-item"> 
-                    <h3 class="title">Manual Test</h3>
+                    <h3 class="title">Manual Testing</h3>
                 </div>
 
                 <div class="skill-item">
-                    <h3 class="title">Front End Development</h3>
+                    <h3 class="title">Front-End Development</h3>
                 </div>
 
                 <div class="skill-item">
-                    <h3 class="title">Mobile Appication</h3>
+                    <h3 class="title">Mobile Application Development</h3>
                 </div>
 
                 <div class="skill-item">
@@ -160,12 +103,9 @@
                 <div class="skill-item">
                     <h3 class="title">Advanced Software Development</h3>
                 </div>
-        </div>
-    </section>
-</div>
-</div>
-
-
-
+            </div>
+        </section>
+    </div>
 </body>
+
 </html>
